@@ -11,12 +11,13 @@ import { PagesModule } from './pages/pages.module';
   declarations: [
     AppComponent,
     NopagefoundComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    PagesModule
+    PagesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
